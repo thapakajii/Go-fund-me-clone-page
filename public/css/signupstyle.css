@@ -1,0 +1,180 @@
+body {
+    font-family: Lato;
+    background-color: #fbf8f6;
+}
+
+.signup-top-nav {
+    width: 100%;
+    font-family: Lato;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signup-gfm-logo {
+    height: 1.875rem;
+    padding-left: 40px;
+}
+
+.signup-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 0.875rem;
+    padding-right: 40px;
+}
+
+.signup-newaccount {
+    color: #666;
+}
+
+.signup-signin {
+    color: #02a95c;
+}
+
+.signup-bodycontent {
+    background-color: #fbf8f6;
+}
+
+.signup-section {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 0em 0em 1em rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.signup-heading {
+    text-align: center;
+    width: 100%;
+}
+
+.signup-title {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.signup-title-one {
+    font-size: 0.875rem;
+}
+
+.signup-title-two {
+    font-size: 0.875rem;
+    color: #02a95c;
+}
+
+.first-line {
+    color: 1px solid #666;
+}
+.signup-name {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 30px;
+    padding-top: 20px;
+    /* border-top: 1px solid #e4e4e4; */
+}
+
+.signup-firstname {
+    border: 1px solid #e4e4e4;
+    padding: 8px 0 8px 15px;
+    margin-right: 20px;
+}
+
+.signup-firstname::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.signup-lastname {
+    border: 1px solid #e4e4e4;
+    padding: 8px 0 8px 15px;
+}
+
+.signup-lastname::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.signup-email {
+    margin-bottom: 10px;
+    padding: 8px 185px 8px 15px;
+    border: 1px solid #e4e4e4;
+}
+
+.signup-email::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.signup-password {
+    padding: 8px 185px 8px 15px;
+    border: 1px solid #e4e4e4;
+}
+
+.signup-password::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.signup-promotion {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.promotion-text {
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+}
+
+.signup-next-button {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 13px 30px;
+    background-color: #02a95c;
+    border: 1px solid #02a95c;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.signup-next-button:hover {
+    background-color: #5d8000;
+}
+
+.signup-terms {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 0.675rem;
+    cursor: pointer;
+}
+
+.GFMterms,
+.GFMpolicy {
+    text-decoration: none;
+    color: #02a95c;
+}
+
+.GFMterms:hover,
+.GFMpolicy:hover {
+    color: #5d8000;
+}

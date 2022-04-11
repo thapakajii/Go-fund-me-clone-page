@@ -1,0 +1,624 @@
+nav {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#gofundme {
+    color: green;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+.first-gfm-logo {
+    height: 25px;
+    cursor: pointer;
+}
+.first-start-gfm {
+    cursor: pointer;
+    color: #02a95c;
+    border: 1px solid #02a95c;
+    background: transparent;
+    font-size: 0.9em;
+    padding: 5px 14px;
+}
+
+ul {
+    flex: 1;
+    max-width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul,
+li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    font-family: Lato;
+}
+.first-content {
+    background-image: url("../images/icon3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f8f8f8;
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.firstheading {
+    width: 50%;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-top: 80;
+    margin-bottom: 0;
+    font-family: Lato, sans-serif;
+    color: #333;
+}
+
+.secondheading {
+    width: 50%;
+    text-align: left;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    color: #767676;
+}
+
+.belowheading {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.startafund {
+    color: #ffffff;
+    background: #02a95c;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 1.25em;
+    height: 3rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.startafund:hover {
+    background: #5d8000;
+}
+
+.fundwork {
+    border: none;
+    background: transparent;
+    font-family: Lato;
+    color: #767676;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.second-content {
+    /* padding-left: 30px; */
+    font-family: Lato;
+    border-radius: 10px;
+    /* padding: 15px 25px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.featuredheading {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.featured-fund-left {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid transparent;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.featured-fund-right {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid transparent;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.featured-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.featured-title {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.9rem;
+    font-family: Lato;
+}
+
+.featured-header-one {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.7rem;
+    font-family: Lato;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #f0eaf4;
+    color: #3a2468;
+}
+
+.featured-header-two {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.7rem;
+    font-family: Lato;
+    position: absolute;
+    top: 8px;
+    left: 500px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #f0eaf4;
+    color: #3a2468;
+}
+
+.featured-des {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.7rem;
+    color: #333;
+    font-family: Lato;
+}
+
+.featured-button {
+    border: 1px solid transparent;
+    background-color: #f8f8f8;
+    /* padding-top: 30px;
+    padding-bottom: 20px; */
+    padding-left: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8% 0;
+}
+
+.featured-button:hover {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.fundraisers-heading {
+    padding-top: 2em;
+    padding-left: 3.6em;
+}
+
+.top-fundraisers {
+    padding: 10px 90px 10px;
+    font-family: Lato;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fundraiser-one {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.1);
+}
+.fundraiser-two {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.1);
+}
+.fundraiser-three {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.fundraiser-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.fundraiser-heading {
+    color: #02a95c;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.fundraising-title {
+    color: #333;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.fundraising-des {
+    font-size: 0.8em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fundraising-lastdonation {
+    margin-left: 5px;
+    color: #666;
+    font-size: 0.7em;
+}
+
+.fundraising-amount {
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.to-collect {
+    border: 2px solid #02a95c;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.see-more-fundraise {
+    display: flex;
+}
+
+.see-more-button {
+    font-family: Lato;
+    font-size: 0.9em;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #333;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fundraise-story {
+    background-color: #fbf8f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 50px 0px;
+}
+
+.story-des {
+    width: 30%;
+    margin-top: 120px;
+}
+
+.slideshow {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 310px;
+    width: 50%;
+}
+
+.story-heading {
+    color: #666;
+    font-family: Lato;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.story-title {
+    font-family: Lato;
+    font-size: 1.3em;
+}
+
+.story-description {
+    font-family: Lato;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.fourth-heading {
+    text-align: center;
+}
+
+.fourth-content {
+    /* padding: 10px 90px 10px; */
+    font-family: Lato;
+    width: 80%;
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    /* position: relative; */
+}
+
+.content-grid {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid transparent;
+    text-align: left;
+    /* background-color: #f8f8f8; */
+    border-radius: 10px;
+    cursor: pointer;
+    /* box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.1); */
+}
+
+.content-logo,
+.content-heading {
+    display: inline-block;
+}
+
+.content-logo {
+    height: 30px;
+    position: relative;
+}
+
+.content-heading {
+    font-family: Lato;
+    margin-left: 15px;
+    margin-top: 0px;
+    font-size: 0.9em;
+    position: absolute;
+    color: #333;
+}
+
+.content-description {
+    margin-left: 50px;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.start-a-fund {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.start-a-fund-button {
+    color: #ffffff;
+    background: #02a95c;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 1.25em;
+    height: 3rem;
+    /* padding: 0.75rem 1.5rem; */
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.start-a-fund-button:hover {
+    background: #5d8000;
+}
+
+.fundraise-app {
+    background-color: #fbf8f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 10px 50px 0px; */
+}
+
+.fundraise-app-img {
+    width: 50%;
+    height: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+.fundraise-app-abt {
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 80px;
+}
+
+.fundraise-app-heading {
+    color: #666;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.fundraise-app-title {
+    font-size: 1.4em;
+}
+.fundraise-app-des {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.fundraise-app-logo {
+    cursor: pointer;
+}
+
+.ready-for-fundraise {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ready-for-fundraise-heading {
+    font-size: 1.3em;
+}
+
+.ready-for-fundraise-button {
+    display: inline-block;
+    justify-content: center;
+    color: #ffffff;
+    background: #02a95c;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 1.25em;
+    height: 3rem;
+    /* padding: 0.75rem 1.5rem; */
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.solid-line-one {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.fundraise-footer {
+    font-family: Lato;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    /* position: relative; */
+}
+
+.first-footer-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-lists {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    line-height: 1.5;
+    /* justify-content: space-between; */
+    /* position: relative; */
+}
+
+.footer-title {
+    /* width: 100%; */
+    /* display: inline-block; */
+    font-size: 0.7em;
+    color: #02a95c !important;
+    text-transform: uppercase;
+}
+
+.footer-nav-lists {
+    /* width: 100%; */
+    font-size: 0.8em;
+    color: #000000 !important;
+    text-align: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.footer-img,
+.lists-under-logo {
+    margin-left: 30px;
+}
+
+.footer-img {
+    height: 25px;
+    width: 80px;
+}
+
+.lists-under-logo {
+    width: 65%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.solid-line-two {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.second-footer-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.left-under-lists {
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+.footer-terms {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #333;
+}
+.footer-social {
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.right-under-lists {
+    max-width: 50%;
+    /* margin-left: 300px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 50px;
+}
